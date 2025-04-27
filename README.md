@@ -29,3 +29,7 @@ A networked version of the classic Connect 4 game with animations, built using P
 4. Take turns dropping pieces by clicking on the column where you want to place your piece.
 5. Connect four of your pieces horizontally, vertically, or diagonally to win!
 6. When the game ends, either player can click the restart button. The game will restart once both players have requested it.
+
+## Some bugs
+
+Right now there's some bug I discovered, first, if you leave and you rejoin you might have to restart the server, second bug, if you play with first player and second player is offline, then second player join after player one joined the game, you might have to restart the server, because first client will be waiting for second player to play, but second player won't be able to play.
