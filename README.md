@@ -24,11 +24,12 @@ A networked version of the classic Connect 4 game with animations, built using P
     ```python client.py --host localhost```
    If connecting over a network, replace "localhost" with the server's IP address:
     ```python client.py --host 192.168.1.xxx```
+   Or just start the program with ```python client.py```
 
-3. Each client will connect and be assigned as either Player 1 (red) or Player 2 (yellow).
-4. Take turns dropping pieces by clicking on the column where you want to place your piece.
-5. Connect four of your pieces horizontally, vertically, or diagonally to win!
-6. When the game ends, either player can click the restart button. The game will restart once both players have requested it.
+4. Each client will connect and be assigned as either Player 1 (red) or Player 2 (yellow).
+5. Take turns dropping pieces by clicking on the column where you want to place your piece.
+6. Connect four of your pieces horizontally, vertically, or diagonally to win!
+7. When the game ends, either player can click the restart button. The game will restart once both players have requested it.
 
 ## Some bugs
 
